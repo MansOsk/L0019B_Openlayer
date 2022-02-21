@@ -1,0 +1,27 @@
+@import "node_modules/ol/ol.css";
+
+* {
+   box-sizing: border-box
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 10vw 80vw;
+  grid-template-rows: 10vh;
+}
+
+.sidebar{
+  margin-left: 15px;
+}
